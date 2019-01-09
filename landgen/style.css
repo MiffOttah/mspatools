@@ -1,0 +1,109 @@
+html, body {
+	background: black;
+	color: white;
+	
+	text-align: center;
+	
+	font-size: 32pt;
+	font-family: Carima, Impact, fantasy;
+}
+body { padding-top: 20pt; margin: 0em 20%; }
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+p { margin-top: 0em; margin-bottom: 0.5em; }
+
+#req_js { display: none; }
+.working { color: #888 !important; }
+
+#title { font-size: 30pt; }
+
+#spirograph {
+	display: block;
+	width: 200px;
+	height: 199px;
+	margin: 0px auto;
+	padding: 0px;
+	background: white url(gate.png) no-repeat center center;
+}
+
+.about {
+	font-size: 10pt;
+	font-family: Courier, "Courier New", monospace;
+	font-weight: bold;
+	line-height: 12pt;
+}
+
+#show_bbcode {
+	font-size: 14pt;
+}
+#bbcode {
+	display: none;
+	
+	font-size: 12pt;
+	font-family: monospace;
+	
+	background: #eee;
+	color: #000;
+}
+#tweet { font-size: 14pt; }
+
+#gender {
+	background: transparent url(gender_outline.png) center center no-repeat;
+	margin: 1em auto;
+	width: 210px;
+	height: 60px;
+	padding: 5px;
+	padding-top: 20px;
+}
+#gender a {
+	display: inline-block;
+	width: 70px;
+	height: 60px;
+	background: black url(gender_sel.png) 0px 0px no-repeat;
+}
+a#gender_male { background-position: 0px 0px; }
+a#gender_random { background-position: -70px 0px; }
+a#gender_female { background-position: -140px 0px; }
+a#gender_male.active { background-position: 0px -60px; }
+a#gender_random.active { background-position: -70px -60px; }
+a#gender_female.active { background-position: -140px -60px; }
+
+#bio {
+	font-size: 12pt;
+	font-family: Courier, "Courier New", monospace;
+	font-weight: bold;
+	margin-top: 10pt;
+	line-height: 14pt;
+}
+
+fieldset {
+	font-size: 12pt;
+	margin: 1em auto;
+	border: none;
+}
+.options_shown fieldset {
+	border: 1px solid white;
+}
+legend {
+	font-size: 18pt;
+	cursor: pointer;
+	margin: 0em auto;
+	text-decoration: underline;
+}
+#options_content {
+	display: none;
+	font-size: 12pt;
+	font-family: Courier, "Courier New", monospace;
+}
+.options_shown #options_content {
+	display: block;
+}
+
+em {
+	font-style: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+}

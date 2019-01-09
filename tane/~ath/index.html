@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>termiinal</title>
+	<style type="text/css">
+		html, body {
+			background-color: black;
+			color: white;
+			font-family: Courier, "Courier New", monospace;
+			text-align: left;
+		}
+		
+		.vii { color: #0052ad; }
+		#nojs { color: red; }
+		#terminal, #tane { display: none; }
+		#cursor { text-decoration: blink; }
+		
+		a, img, a img { border: 0px none; margin: 0px; padding: 0px; }
+	</style>
+	<script type="text/javascript">
+		var NEXT_URL = "http://miffthefox.info/mspa/tane/appearifier/";
+		
+		window.onload = function(){
+			document.getElementById("terminal").style.display = "block";
+		}
+		document.onkeyup = function(e){
+			if (!e) e = window.event;
+			
+			if (e.keyCode == 13) { // Enter
+				document.getElementById("cursor").style.display = "none";
+				document.getElementById("tane").href = NEXT_URL;
+				document.getElementById("tane").style.display = "inline";
+			}
+		}
+	</script>
+</head>
+<body>
+	<noscript><p>Please enable JavaScript</p></noscript>
+	<p id="terminal">
+		$ vii tane.~ath<br><br>
+		import universe U;<br>
+		<span class="vii">~</span><br>
+		~ATH(U) {<br>
+		<span class="vii">~</span><br>
+		} EXECUTE(TANE);<br>
+		<span class="vii">~</span><br>
+		THIS.DIE();<br>
+		<span class="vii">~</span><br>
+		<span class="vii">~</span><br><br>
+		$ ~ath --compile tane.~ath --autorun <span id="cursor">_</span><br><br>
+		<a id="tane" href="#"><img src="tane.gif" alt="TANE"></a>
+	</p>
+</body>
+</html>

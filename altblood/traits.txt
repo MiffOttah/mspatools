@@ -1,0 +1,286 @@
+[Troll: Karkat Vantas, Mutant Red, #ff0000]
+Easily Annoyed
+Grumpy
+Secretive
+Impulsive
+Accident-Prone
+Self-loathing
+Loyal
+Rude
+Irrational
+Emotional
+Woobie
+Hacker
+Condescending
+Romantic
+Huge Bitch
+Domineering
+Empathic
+Ambitious
+[/Troll]
+
+[Troll: Aradia Medigo, Dark Red, #a10000]
+Dead
+Secretive
+Unemotional
+Telekinetic
+Talks to the Dead
+Helpful
+Introverted
+Vengeful
+Apathetic
+Genius
+Woobie
+Esper
+Psychotic
+Levitation
+Unambitious
+Focused
+[/Troll]
+
+[Troll: Tavros Nitram, Brown, #a15000]
+Pushover
+Incapable of Hate
+Crippled
+Immature
+Woobie
+Empathic
+Animal Telepathy
+Rapper
+Loves Animals
+Unlucky
+Wistful
+Loves Magic
+Dislikes Offending Others
+Robotic Limbs
+Awkward
+Adorable
+Unhateable
+[/Troll]
+
+[Troll: Sollux Captor, Yellow, #a1a100]
+Hacker
+Bipolar
+Emotional
+Telekinetic
+Introverted
+Genius
+Condescending
+Easily Annoyed
+Self-Loathing
+Levitation
+Calm
+Esper
+Psychotic
+Negative
+Badass
+Focused
+Vision Two-Fold
+[/Troll]
+
+[Troll: Nepeta Leijon, Green, #416600]
+Energetic
+Loves Nature
+RP-er
+Loyal
+Positive
+Loves Animals
+Adorable
+Viscious
+Empathic
+Shipper
+Romantic
+Helpful
+Easily Annoyed
+Badass
+Unhateable
+Wistful
+Cloud-headed
+Artistic
+Unambitious
+Emotional
+Impulsive
+[/Troll]
+
+[Troll: Kanaya Maryam, Jade Green, #008141]
+Calm
+Helpful
+Loves Nature
+Cares about Fashion
+Romantic
+Romanticly Unsuccessful
+Artistic
+Positive
+Dislikes Offending Others
+Polite
+Meddling
+Pushover
+Snarky
+Supportive
+Loyal
+[/Troll]
+
+[Troll: Terezi Pyrope, Teal, #008282]
+Blind
+Polite
+RP-er
+Positive
+Manipulative
+Meddling
+Coolkid
+Charismatic
+Flirty
+Vengeful
+Psychotic
+Romantic
+Badass
+Rarely Unhappy
+Energetic
+[/Troll]
+
+[Troll: Vriska Serket, Blue, #005682]
+Unlucky
+Manipulative
+Selfish
+Huge Bitch
+Vicious
+Mind Control Abilities
+Vision Eight-Fold
+Eyepatch
+Robotic Limbs
+Backstabbing
+Positive
+Charismatic
+Psychotic
+Romantic
+Flirty
+RP-er
+Prefers High Blood
+Condescending
+Helpful
+Genius
+Domineering
+Unempathic
+Admires Toughness
+Secretive
+Focused
+Impulsive
+Energetic
+[/Troll]
+
+[Troll: Equius Zahhak, Dark Blue, #000056]
+STRONG
+Artistic
+Prefers High Blood
+Easily Annoyed
+Grumpy
+Builds Robots
+Condescending
+Loyal
+Helpful
+Badass
+Polite
+Huge Bitch
+Genius
+Vicious
+Beaten Up
+Awkward
+Domineering
+Stubborn
+Empathic
+Obsessive
+Admires Toughness
+Focused
+[/Troll]
+
+[Troll: Gamzee Makara, Indigo, #2b0057]
+Apathetic
+Rapper
+Wistful
+Loyal
+Pushover
+Positive
+Adorable
+Calm
+Helpful
+Loves Nature
+Cloud-headed
+Empathic
+Dislikes Offending Others
+Coolkid
+Unhateable
+Rarely Unhappy
+Impulsive
+Unambitious
+Incapable of Hate
+[/Troll]
+
+[Troll: Eridan Ampora, Purple, #6a006a]
+Romantic
+Easily Annoyed
+Romanticly Unsuccessful
+Wistful
+Impulsive
+Awkward
+Condescending
+Overly Dramatic
+Genius
+Loves Magic
+Negative
+Emotional
+Focused
+Prefers High Blood
+RP-er
+Unlucky
+Ambitious
+Grumpy
+Loyal
+Secretive
+Empathic
+Huge Bitch
+Artistic
+Rude
+Helpful
+Badass
+Woobie
+Serious
+Psychotic
+[/Troll]
+
+[Troll: Feferi Peixes, Tyrian Purple, #77003c]
+Adorable
+Incapable of Hate
+Rarely Unhappy
+Loves Animals
+Helpful
+Positive
+Energetic
+Loves Nature
+Empathic
+Emotional
+Unhateable
+Dislikes Offending Others
+Artistic
+Unambitious
+Goofy
+[/Troll]
+
+[Incompatibilities]
+Negative <> Positive
+Grumpy <> Rarely Unhappy
+Easily Annoyed <> Rarely Unhappy
+Easily Annoyed <> Apathetic
+Calm <> Emotional
+Calm <> Overly Dramatic
+Overly Dramatic <> Emotional
+Calm <> Impulsive
+Awkward <> Charismatic
+Awkward <> Coolkid
+Romanticly Unsuccessful <> Charismatic
+Romanticly Unsuccessful <> Awkward
+Unhateable <> Huge Bitch
+Loyal <> Backstabbing
+Emotional <> Unemotional
+Helpful <> Apathetic
+
+[EOF]

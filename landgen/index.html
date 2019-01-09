@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Random Land Generator</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="source.js"></script>
+	<script type="text/javascript" src="landgen.js"></script>
+</head>
+<body>
+	<noscript>
+		<p>Please enable JavaScript.</p>
+	</noscript>
+	<div id="req_js">
+		<p id="land">
+			Land of <span id="land_1"></span> and <span id="land_2"></span>
+		</p>
+		<p id="title">
+			<span id="title_1"></span> of <span id="title_2"></span>
+		</p>
+		<div>
+			<a href="#" title="Again?" id="spirograph"></a>
+		</div>
+		<div id="bio">
+			Your interests include <em id="interest_1">?</em> and <em id="interest_2">?</em>.<br><br>
+			You wield the <span id="specibus">?</span> specibus and have combined your
+			<em id="weapon">?</em> with your <em id="item_1">?</em> and <em id="item_2">?</em> to create your awesome weapon.<br><br>
+			Your chumHandle is <span id="chum_1">?</span><span id="chum_2">?</span>.<br><br>
+			The consorts of your land are <em id="consort_quirk">?</em> <em id="consort_color">?</em> <em id="consort_type">?</em>
+			who like <em id="consort_like">?</em>.
+		</div>
+		<div>
+			<a href="#" id="show_bbcode">Show BBCode</a><br>
+			<textarea id="bbcode" rows="4" cols="40" readonly="readonly"></textarea>
+		</div>
+		<div id="twitter">
+			<a href="#" id="tweet">Tweet my Land and Title</a><br>&nbsp;
+		</div>
+		<div class="about">
+			Click the spirograph to roll again.
+		</div>
+		<form method="get" action="#" id="options">
+			<fieldset>
+				<legend id="options_header">Options</legend>
+				<div id="options_content">
+					<div><label><input type="checkbox" id="opt_multisyllable"> Allow multi-syllable titles.</label></div>
+					<div id="gender"><a href="#" title="Male" id="gender_male"></a><a href="#" title="Random" id="gender_random" class="active"></a><a href="#" title="Female" id="gender_female"></a></div>
+					<div>
+						<label><input type="checkbox" id="opt_no_facebook"> I hate Facebook.</label><br>
+						<label><input type="checkbox" id="opt_no_twitter"> I hate Twitter.</label>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<p id="facebook">
+		<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmiffthefox.info%2Fmspa%2Flandgen%2F&amp;layout=button_count&amp;show_faces=false&amp;width=1&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe>
+	</p>
+	<p class="about">
+		MSPA Landgen version <span id="landgen_version">?.?.?</span><br><br>
+		Coding by <a href="https://miffthefox.info/">Miff</a>.<br>
+		Original generator by <a href="http://www.mspaforums.com/member.php?55303-Varkarrus">Varkarrus</a>.<br>
+		Lots of titles by <a href="http://www.mspaforums.com/member.php?56372-Fusion-the-Cat">Fusion the Cat</a>.<br>
+		Based on MSPA/Homestuck by <a href="http://mspaintadventures.com/">Andrew Hussie</a>.<br><br>
+		<a href="http://www.mspaforums.com/showthread.php?31873">MSPAF thread</a>
+	</p>
+</body>
+</html>

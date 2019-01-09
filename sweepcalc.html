@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Sweeps/Years converter</title>
+	<style type="text/css">
+		html, body {
+			background: black;
+			color: white;
+			font-family: Courier New, monospace;
+			font-size: 1.2em;
+		}
+		div {
+			margin: 0em;
+			padding: 0em;
+			position: fixed;
+			top: 20%;
+			width: 50%;
+			text-align: center;
+			z-index: 1;
+			display: none;
+		}
+		#d1 { color: blue; left: 0em; }
+		#d2 { color: red; right: 0em; }
+		
+		input {
+			font-family: Courier New, monospace;
+			font-size: 1.4em;
+			width: 6em;
+			background: black;
+			text-align: center;
+		}
+		#sweeps {
+			color: blue;
+			border: 1px solid blue;
+		}
+		#years {
+			color: red;
+			border: 1px solid red;
+		}
+		#nojs {
+			z-index: 2;
+			font-size: 1.2em;
+			margin-top: 1em;
+			text-align: center;
+		}
+		
+		#about {
+			z-index: 3;
+			
+			margin: 0em;
+			padding: 0em;
+			position: fixed;
+			bottom: 3em;
+			left: 0em;
+			width: 100%;
+			
+			font-size: 0.8em;
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function(){
+			var d1 = document.getElementById("d1");
+			var d2 = document.getElementById("d2");
+			var sweeps = document.getElementById("sweeps");
+			var years = document.getElementById("years");
+			
+			d1.style.display = "block";
+			d2.style.display = "block";
+			
+			function s2y(){
+				var n = Number(sweeps.value);
+				years.value = isNaN(n) ? "?" : roundnumber((n * 13) / 6);
+			}
+			
+			function y2s(){
+				var n = Number(years.value);
+				sweeps.value = isNaN(n) ? "?" : roundnumber((n * 6) / 13);
+			}
+			
+			sweeps.onblur = s2y;
+			sweeps.onkeyup = s2y;
+			years.onblur = y2s;
+			years.onkeyup = y2s;
+		}
+		
+		function roundnumber(n){
+			return Math.round(n * 100) / 100;
+		}
+	</script>
+</head>
+<body>
+	<div id="d1">
+		<p>Alternian Solar Sweeps</p>
+		<p><input type="text" id="sweeps" value="6"></p>
+	</div>
+	<div id="d2">
+		<p>Earth Human Years</p>
+		<p><input type="text" id="years" value="13"></p>
+	</div>
+	<noscript>
+		<p id="nojs">Please enable JavaScript to use this page.</p>
+	</noscript>
+	<p id="about">Made by Miff<br>Based on Homestuck by Andrew Hussie</p>
+</body>
+</html>

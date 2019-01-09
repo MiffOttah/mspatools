@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>WV: Tane</title>
+	<style type="text/css">
+		html, body {
+			background-color: black;
+			color: white;
+			font-family: Courier, "Courier New", monospace;
+			font-weight: bold;
+			text-align: center;
+		}
+		
+		#action {
+			margin: 5% auto 0px;
+			height: 450px;
+			width: 650px;
+			z-index: 1;
+		}
+		#overlay {
+			margin: 0px auto;
+			height: 450px;
+			width: 650px;
+			position: relative;
+			top: -450px;
+			padding-top: 379px;
+		}
+		
+		a, img, a img { border: 0px none; margin: 0px; padding: 0px; }
+	</style>
+	<script type="text/javascript">
+		var NEXT_URL = "http://www.swfcabin.com/swf-files/1292229150.swf";
+		
+		var img01 = new Image(), img02 = new Image(), img03 = new Image(), img04 = new Image(), img05 = new Image(), action, overlay;
+		img01.src = "appear.gif";
+		img02.src = "appear_complete.gif";
+		img03.src = "controlpanel.gif";
+		img04.src = "button_placeholder.gif";
+		img05.src = "tane.gif";
+		
+		window.onload = function(){
+			action = document.getElementById("action");
+			overlay = document.getElementById("overlay");
+			
+			action.innerHTML = "<img src='controlpanel.gif'>";
+			overlay.innerHTML = "<a href='javascript:void tane();'><img src='button_placeholder.gif'></a>";
+		}
+		
+		function tane(){
+			action.innerHTML = "<img src='appear.gif'>";
+			overlay.innerHTML = "";
+			
+			window.setTimeout(function (){
+				action.innerHTML = "<img src='appear_complete.gif'>";
+				overlay.style.paddingTop = "250px";
+				overlay.innerHTML = "<a href='" + NEXT_URL + "'><img src='tane.gif'></a>";
+			}, 3700);
+			
+			return 0;
+		}
+	</script>
+</head>
+<body>
+	<p id="action">Loading...</p>
+	<p id="overlay" class="button"></p>
+	<noscript><p>Please enable JavaScript.</p></noscript>
+</body>
+</html>
